@@ -2,5 +2,8 @@
 	"type": "module",
 	"dependencies": {
 		"vite": "^4.0.2"
+	},
+	"scripts": {
+		"build": "vite build && vite build --ssr"
 	}
 }
